@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510283076 source:c:\users\jhorel\desktop\bomberman.cpp\main.cpp
+	<iostream>
+	<allegro.h>
+
