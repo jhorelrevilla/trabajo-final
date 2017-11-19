@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1511121744 source:d:\instaladores\programacion\final\m_v_c__f\m_c.cpp
+	"m_c.h"
+
+1511121387 d:\instaladores\programacion\final\m_v_c__f\m_c.h
+	<stdio.h>
+	<conio.h>
+	"m_m.h"
+
+1511121676 source:d:\instaladores\programacion\final\m_v_c__f\main.cpp
+	<iostream>
+	"m_c.h"
+	"m_m.h"
+
+1511121605 d:\instaladores\programacion\final\m_v_c__f\m_m.h
+	"m_c.h"
+	<iostream>
+
+1511121623 source:d:\instaladores\programacion\final\m_v_c__f\m_m.cpp
+	"m_m.h"
+
