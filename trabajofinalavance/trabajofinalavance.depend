@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1511135312 source:c:\users\jhorel\desktop\trabajofinalavance\main.cpp
+	<iostream>
+	"Controller.h"
+	"Model.h"
+
+1511135660 source:c:\users\jhorel\desktop\trabajofinalavance\src\controller.cpp
+	"Controller.h"
+
+1511135083 c:\users\jhorel\desktop\trabajofinalavance\include\controller.h
+	"Model.h"
+	<iostream>
+	<stdio.h>
+	<conio.h>
+
+1511135604 source:c:\users\jhorel\desktop\trabajofinalavance\src\model.cpp
+	"Model.h"
+
+1511135871 c:\users\jhorel\desktop\trabajofinalavance\include\model.h
+	"View.h"
+	<iostream>
+
+1511135604 source:c:\users\jhorel\desktop\trabajofinalavance\src\view.cpp
+	"View.h"
+
+1511135686 c:\users\jhorel\desktop\trabajofinalavance\include\view.h
+	<iostream>
+
