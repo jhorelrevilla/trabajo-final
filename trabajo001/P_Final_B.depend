@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1510284009 source:d:\instaladores\programacion\final\p_final_b\main.cpp
+	<iostream>
+	"pj_v_a.h"
+	"Enemigo.h"
+	"Bomberman.h"
+	"Bomba.h"
+	"Fantasmas.h"
+	"Power_UP.h"
+	"Posicion.h"
+
+1510267837 source:d:\instaladores\programacion\final\p_final_b\dibujo.cpp
+	"Dibujo.h"
+
+1510277331 d:\instaladores\programacion\final\p_final_b\dibujo.h
+	"Posicion.h"
+	<windows.h>
+	<time.h>
+
+1510277247 d:\instaladores\programacion\final\p_final_b\posicion.h
+	<string>
+	<iostream>
+
+1510283589 source:d:\instaladores\programacion\final\p_final_b\pj_v_a.cpp
+	"pj_v_a.h"
+
+1510283221 d:\instaladores\programacion\final\p_final_b\pj_v_a.h
+	"Posicion.h"
+
+1510277247 source:d:\instaladores\programacion\final\p_final_b\posicion.cpp
+	"Posicion.h"
+
+1510283589 source:d:\instaladores\programacion\final\p_final_b\bomberman.cpp
+	"Bomberman.h"
+
+1510283429 d:\instaladores\programacion\final\p_final_b\bomberman.h
+	"pj_v_a.h"
+	"Bomba.h"
+
+1510283977 source:d:\instaladores\programacion\final\p_final_b\fantasmas.cpp
+	"Fantasmas.h"
+
+1510284279 d:\instaladores\programacion\final\p_final_b\fantasmas.h
+	"Enemigo.h"
+
+1510280326 source:d:\instaladores\programacion\final\p_final_b\power_up.cpp
+	"Power_UP.h"
+
+1510280360 d:\instaladores\programacion\final\p_final_b\power_up.h
+	"pj_v_a.h"
+
+1510282321 source:d:\instaladores\programacion\final\p_final_b\bomba.cpp
+	"Bomba.h"
+
+1510282321 d:\instaladores\programacion\final\p_final_b\bomba.h
+	"pj_v_a.h"
+
+1510283807 source:d:\instaladores\programacion\final\p_final_b\enemigo.cpp
+	"Enemigo.h"
+
+1510284265 d:\instaladores\programacion\final\p_final_b\enemigo.h
+	"pj_v_a.h"
+
+1510315583 source:c:\users\jhorel\downloads\allegro en codeblocks\el weon\posicion.cpp
+	"Posicion.h"
+
+1510315583 c:\users\jhorel\downloads\allegro en codeblocks\el weon\posicion.h
+	<string>
+	<iostream>
+
+1510280326 source:c:\users\jhorel\downloads\allegro en codeblocks\el weon\power_up.cpp
+	"Power_UP.h"
+
+1510280360 c:\users\jhorel\downloads\allegro en codeblocks\el weon\power_up.h
+	"pj_v_a.h"
+
+1510286958 c:\users\jhorel\downloads\allegro en codeblocks\el weon\pj_v_a.h
+	"Posicion.h"
+
+1510282321 source:c:\users\jhorel\downloads\allegro en codeblocks\el weon\bomba.cpp
+	"Bomba.h"
+
+1510282321 c:\users\jhorel\downloads\allegro en codeblocks\el weon\bomba.h
+	"pj_v_a.h"
+
+1510311493 source:c:\users\jhorel\downloads\allegro en codeblocks\el weon\enemigo.cpp
+	"Enemigo.h"
+
+1510311493 c:\users\jhorel\downloads\allegro en codeblocks\el weon\enemigo.h
+	"pj_v_a.h"
+
+1510288010 source:c:\users\jhorel\downloads\allegro en codeblocks\el weon\fantasmas.cpp
+	"Fantasmas.h"
+
+1510288009 c:\users\jhorel\downloads\allegro en codeblocks\el weon\fantasmas.h
+	"Enemigo.h"
+
+1510286958 source:c:\users\jhorel\downloads\allegro en codeblocks\el weon\pj_v_a.cpp
+	"pj_v_a.h"
+
+1510314222 source:c:\users\jhorel\downloads\allegro en codeblocks\el weon\bomberman.cpp
+	"Bomberman.h"
+
+1510314924 c:\users\jhorel\downloads\allegro en codeblocks\el weon\bomberman.h
+	"pj_v_a.h"
+
+1510315388 source:c:\users\jhorel\downloads\allegro en codeblocks\el weon\main.cpp
+	<iostream>
+	<allegro.h>
+	"pj_v_a.h"
+	"Enemigo.h"
+	"Bomberman.h"
+	"Bomba.h"
+	"Fantasmas.h"
+	"Power_UP.h"
+	"Posicion.h"
+
