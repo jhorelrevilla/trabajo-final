@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
     Model m;
+    m.show_puntaje();
     Controller c;
     c.tecla(false);
     return 0;

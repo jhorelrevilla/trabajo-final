@@ -26,3 +26,30 @@
 1511135686 c:\users\jhorel\desktop\trabajofinalavance\include\view.h
 	<iostream>
 
+1511580058 source:d:\instaladores\programacion\final\nueva carpeta\trabajofinalavance\main.cpp
+	<iostream>
+	"Controller.h"
+	"Model.h"
+
+1511342634 d:\instaladores\programacion\final\nueva carpeta\trabajofinalavance\include\controller.h
+	"Model.h"
+	<iostream>
+	<stdio.h>
+	<conio.h>
+
+1511580261 d:\instaladores\programacion\final\nueva carpeta\trabajofinalavance\include\model.h
+	"View.h"
+	<iostream>
+
+1511579609 d:\instaladores\programacion\final\nueva carpeta\trabajofinalavance\include\view.h
+	<iostream>
+
+1511125604 source:d:\instaladores\programacion\final\nueva carpeta\trabajofinalavance\src\controller.cpp
+	"Controller.h"
+
+1511580038 source:d:\instaladores\programacion\final\nueva carpeta\trabajofinalavance\src\model.cpp
+	"Model.h"
+
+1511579508 source:d:\instaladores\programacion\final\nueva carpeta\trabajofinalavance\src\view.cpp
+	"View.h"
+

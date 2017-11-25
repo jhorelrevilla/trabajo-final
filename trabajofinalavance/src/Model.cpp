@@ -1,42 +1,77 @@
 #include "Model.h"
 
+Model::Model()
+{
+    vidas=3;
+    puntaje=0;
+    dmg=false;
+    muerte_T=false;
+    player_S="";
+    k_enemy=false;
+}
 void Model::cambiotecla(int a){
     switch(a)
            {
-            case 13:
+            case ENTER:
                  cout<<"se cambio a enter"<<endl;
-                 teclapre=13;
-                 v.imprimir(13);
+                 teclapre=ENTER;
+                 v.imprimir(ENTER);
                 break;
 
-            case 9:
+            case TAB:
                  cout<<"se cambio a TAB"<<endl;
-                 teclapre=9;
-                 v.imprimir(9);
+                 teclapre=TAB;
+                 v.imprimir(TAB);
                 break;
 
-            case 72:
-                 cout<<"se cambio a  Arriba"<<endl;
-                 teclapre=72;
-                 v.imprimir(72);
+            case UP:
+                 cout<<"se cambio a arriba"<<endl;
+                 teclapre=UP;
+                 v.imprimir(UP);
                 break;
 
-            case 80:
-                 cout<<"se cambio a  Abajo"<<endl;
-                 teclapre=80;
-                 v.imprimir(80);
+            case DOWN:
+                 cout<<"se cambio a abajo"<<endl;
+                 teclapre=DOWN;
+                 v.imprimir(DOWN);
                 break;
 
-            case 75:
-                 cout<<"se cambio a  izquierda"<<endl;
-                 teclapre=75;
-                 v.imprimir(75);
+            case LEFT:
+                 cout<<"se cambio a izquierda"<<endl;
+                 teclapre=LEFT;
+                 v.imprimir(LEFT);
                 break;
 
-            case 77:
-                cout<<"se cambio a  derecha"<<endl;
-                teclapre=77;
-                v.imprimir(77);
+            case RIGHT:
+                cout<<"se cambio a derecha"<<endl;
+                teclapre=RIGHT;
+                v.imprimir(RIGHT);
                 break;
             }
+}
+void Model::add_vidas()
+{
+    if (puntaje==100){vidas+=1;}
+}
+void Model::quitarvida()
+{
+    if (muerte_T==true){vidas-=1;}
+}
+void Model::add_puntaje()
+{
+    if (k_enemy==true){puntaje+=15;}
+}
+void Model::setN_S(std::string player_S)
+{
+    this->player_S=player_S;
+}
+void Model::show_puntaje()
+{
+    v.show_puntaje(this->puntaje);
+}
+bool Model::col(int x, int y, int xz, int yz){
+    if (x==xz && y ==yz)
+        {return true;}
+    else
+        return false;
 }

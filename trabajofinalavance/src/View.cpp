@@ -4,28 +4,32 @@ void View::imprimir(int a)
 {
     switch(a)
            {
-            case 13:
+            case ENTER:
                  cout<<"Presiono ENTER"<<endl;
                 break;
 
-            case 9:
+            case TAB:
                  cout<<"Presiono TAB"<<endl;
                 break;
 
-            case 72:
+            case UP:
                  cout<<"Presiono Flecha Arriba"<<endl;
                 break;
 
-            case 80:
+            case DOWN:
                  cout<<"Presiono Flecha Abajo"<<endl;
                 break;
 
-            case 75:
+            case LEFT:
                  cout<<"Presiono Flecha izquierda"<<endl;
                 break;
 
-            case 77:
+            case RIGHT:
                 cout<<"Presiono Flecha derecha"<<endl;
                 break;
             }
+}
+void View::show_puntaje(int a)
+{
+    cout << "Tu puntaje: " << a << endl;
 }
