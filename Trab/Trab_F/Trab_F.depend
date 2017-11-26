@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1511654365 source:d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\main.cpp
+	<iostream>
+	"Controller.h"
+	"Model.h"
+	"Bomberm.h"
+
+1511654349 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\controller.h
+	"Model.h"
+	<iostream>
+	<stdio.h>
+	<conio.h>
+
+1511654599 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\model.h
+	"View.h"
+	"Bomberm.h"
+	"Obstaculos.h"
+	<iostream>
+
+1511654349 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\view.h
+	<iostream>
+
+1511654594 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\bomberm.h
+	"Model.h"
+	"PJ.h"
+
+1511654553 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\pj.h
+	"Posicion.h"
+
+1511654349 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\posicion.h
+	<iostream>
+
+1511654349 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\obstaculos.h
+	"Posicion.h"
+
