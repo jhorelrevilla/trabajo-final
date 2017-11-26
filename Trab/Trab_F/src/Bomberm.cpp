@@ -5,8 +5,6 @@ Bomberm::Bomberm()
     this -> puntaje = 0;
     this -> vidas = 3;
     this -> player_S="";
-    this -> pos.x = 0;
-    this -> pos.y = 0;
 }
 Bomberm::Bomberm(int x,int y)
 {

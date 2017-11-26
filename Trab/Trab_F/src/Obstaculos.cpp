@@ -6,7 +6,3 @@ Obstaculos::Obstaculos()
     this -> pos.y = 0;
 }
 
-Obstaculos::~Obstaculos()
-{
-    //dtor
-}

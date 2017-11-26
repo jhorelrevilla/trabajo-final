@@ -14,6 +14,7 @@ class Model
         void add_vidas();
         void quitarvida();
         void add_puntaje();
+        void add_puntaje(int p);
         void show_puntaje();
         bool col(int x, int y, int xz, int yz);
         void obs();

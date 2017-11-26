@@ -8,6 +8,7 @@ int Controller::tecla(bool gameover)
 
     while(cTecla != ESC)
     {
+       v.show_puntaje(n.puntaje);
        cTecla = getch();
        if(cTecla == 0)
            cTecla = getch();
@@ -22,6 +23,7 @@ int Controller::tecla(bool gameover)
                 break;
             case UP:
                 c.cambiotecla(UP);
+                c.add_puntaje(15);
                 break;
             case DOWN:
                 c.cambiotecla(DOWN);

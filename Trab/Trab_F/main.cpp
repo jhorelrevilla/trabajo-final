@@ -10,6 +10,8 @@ int main()
     m.show_puntaje();
     Controller c;
     c.tecla(false);
+    Bomberm v;
+
     return 0;
 }
 

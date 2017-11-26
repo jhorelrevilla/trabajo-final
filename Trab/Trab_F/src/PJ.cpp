@@ -5,7 +5,6 @@ Pj::Pj()
     this -> vidas = 1;
 }
 Pj::Pj(Posicion pos1):myPos(pos1){}
-void Pj::setForm(char newForm){cuerpo = newForm;}
 void Pj::moveMyPersonaje(Posicion newPosicion)
 {
     myPos = newPosicion;

@@ -48,22 +48,26 @@ void Model::cambiotecla(int a){
 }
 void Model::add_vidas()
 {
-    if (c.puntaje==100){c.vidas+=1;}
+    if (c.puntaje==100){c.vidas+=1;c.puntaje-=100;}
 }
 void Model::quitarvida()
 {
-    if (muerte_T==true){c.vidas-=1;}
+    if (muerte_T==true){c.vidas-=1;muerte_T=false;}
 }
 void Model::add_puntaje()
 {
-    if (k_enemy==true){c.puntaje+=15;}
+    if (k_enemy==true){c.puntaje+=15;k_enemy=false;}
+}
+void Model::add_puntaje(int p)
+{
+    c.puntaje+=p;
 }
 void Model::show_puntaje()
 {
     v.show_puntaje(c.puntaje);
 }
 bool Model::col(int x, int y, int xz, int yz){
-    if (c.x==xz && c.y ==yz)
+    if (x==xz && y ==yz)
         {return true;}
     else
         return false;

@@ -1,6 +1,5 @@
 #ifndef BOMBERM_H
 #define BOMBERM_H
-#include "Model.h"
 #include "PJ.h"
 
 class Bomberm : public Pj
@@ -9,14 +8,13 @@ class Bomberm : public Pj
         Bomberm();
         Bomberm(int,int);
         friend class Model;
+        friend class Controller;
         int getVida();
         void setN_S(std::string player_S);
         int getPosicionX();
         int getPosicionY();
-
         void setpPosicionX(int);
         void setmPosicionX(int);
-
         void setpPosicionY(int);
         void setmPosicionY(int);
     private:

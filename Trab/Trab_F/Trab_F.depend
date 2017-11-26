@@ -1,17 +1,18 @@
 # depslib dependency file v1.0
-1511654365 source:d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\main.cpp
+1511668681 source:d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\main.cpp
 	<iostream>
 	"Controller.h"
 	"Model.h"
 	"Bomberm.h"
 
-1511654349 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\controller.h
+1511668709 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\controller.h
 	"Model.h"
+	"View.h"
 	<iostream>
 	<stdio.h>
 	<conio.h>
 
-1511654599 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\model.h
+1511669350 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\model.h
 	"View.h"
 	"Bomberm.h"
 	"Obstaculos.h"
@@ -20,8 +21,7 @@
 1511654349 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\view.h
 	<iostream>
 
-1511654594 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\bomberm.h
-	"Model.h"
+1511668721 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\bomberm.h
 	"PJ.h"
 
 1511654553 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\pj.h
@@ -32,4 +32,25 @@
 
 1511654349 d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\include\obstaculos.h
 	"Posicion.h"
+
+1511668462 source:d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\src\bomberm.cpp
+	"Bomberm.h"
+
+1511669350 source:d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\src\controller.cpp
+	"Controller.h"
+
+1511669350 source:d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\src\model.cpp
+	"Model.h"
+
+1511667392 source:d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\src\obstaculos.cpp
+	"Obstaculos.h"
+
+1511668312 source:d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\src\pj.cpp
+	"PJ.h"
+
+1511654349 source:d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\src\posicion.cpp
+	"Posicion.h"
+
+1511654349 source:d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\src\view.cpp
+	"View.h"
 
