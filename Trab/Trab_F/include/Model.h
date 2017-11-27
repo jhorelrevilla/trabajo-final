@@ -11,14 +11,9 @@ class Model
     public:
         Model();
         void cambiotecla(int);
-        void add_vidas();
-        void quitarvida();
-        void add_puntaje();
-        void add_puntaje(int p);
-        void show_puntaje();
         bool col(int x, int y, int xz, int yz);
     protected:
-        Bomberm c;
+        Bomberm c(int x_1=1,int y_2=32 );
         char teclapre;
         Obstaculos d;
         View v;

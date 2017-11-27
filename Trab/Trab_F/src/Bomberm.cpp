@@ -8,8 +8,6 @@ Bomberm::Bomberm(int x,int y)
     this -> pos.x = x;
     this -> pos.y = y;
 }
-
-
 int Bomberm::getVida(){return vidas;}
 
 int Bomberm::getPosicionX(){return pos.x;}

@@ -8,7 +8,6 @@ class Posicion
         int x,y;
         Posicion();
         Posicion(int ,int );
-
 };
 
 
