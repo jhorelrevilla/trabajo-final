@@ -72,4 +72,3 @@ bool Model::col(int x, int y, int xz, int yz){
     else
         return false;
 }
-void Model::obs(){}

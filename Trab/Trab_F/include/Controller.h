@@ -11,7 +11,6 @@ class Controller
 {
     public:
         int tecla(bool);
-
     protected:
         char cTecla;
         Model c;

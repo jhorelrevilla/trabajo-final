@@ -5,11 +5,14 @@
 class Pj
 {
     public:
-        Pj();
-        Pj(Posicion pos1);
-        void moveMyPersonaje(Posicion newPosicion); ///cambiar de posicion
-        void moveMyPersonajeAndDraw(Posicion newPosicion); ///cambiar de posicion y dibujar
-        int getVida();
+        virtual int getPosicionX()=0;
+        virtual int getPosicionY()=0;
+        virtual void setpPosicionX(int)=0;
+        virtual void setmPosicionX(int)=0;
+        virtual void setpPosicionY(int)=0;
+        virtual void setmPosicionY(int)=0;
+
+        virtual int getVida()=0;
     protected:
         int vidas;
         Posicion myPos;

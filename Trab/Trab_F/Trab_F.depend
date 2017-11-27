@@ -54,3 +54,61 @@
 1511654349 source:d:\instaladores\programacion\final\nueva carpeta\trab\trab_f\src\view.cpp
 	"View.h"
 
+1511738536 source:c:\users\jhorel\desktop\trab_f\main.cpp
+	<iostream>
+	"Controller.h"
+	"Model.h"
+	"Bomberm.h"
+
+1511739462 c:\users\jhorel\desktop\trab_f\include\controller.h
+	"Model.h"
+	"View.h"
+	<iostream>
+	<stdio.h>
+	<conio.h>
+
+1511740591 c:\users\jhorel\desktop\trab_f\include\model.h
+	"View.h"
+	"Bomberm.h"
+	"Obstaculos.h"
+	<iostream>
+
+1511740694 c:\users\jhorel\desktop\trab_f\include\view.h
+	<iostream>
+	"Model.h"
+	"allegro.h"
+	"Bomberm.h"
+
+1511739526 c:\users\jhorel\desktop\trab_f\include\bomberm.h
+	"PJ.h"
+
+1511739544 c:\users\jhorel\desktop\trab_f\include\pj.h
+	"Posicion.h"
+
+1511728107 c:\users\jhorel\desktop\trab_f\include\posicion.h
+	<iostream>
+
+1511728107 c:\users\jhorel\desktop\trab_f\include\obstaculos.h
+	"Posicion.h"
+
+1511739393 source:c:\users\jhorel\desktop\trab_f\src\bomberm.cpp
+	"Bomberm.h"
+
+1511739572 source:c:\users\jhorel\desktop\trab_f\src\controller.cpp
+	"Controller.h"
+
+1511738536 source:c:\users\jhorel\desktop\trab_f\src\model.cpp
+	"Model.h"
+
+1511738536 source:c:\users\jhorel\desktop\trab_f\src\obstaculos.cpp
+	"Obstaculos.h"
+
+1511739292 source:c:\users\jhorel\desktop\trab_f\src\pj.cpp
+	"PJ.h"
+
+1511728107 source:c:\users\jhorel\desktop\trab_f\src\posicion.cpp
+	"Posicion.h"
+
+1511728107 source:c:\users\jhorel\desktop\trab_f\src\view.cpp
+	"View.h"
+

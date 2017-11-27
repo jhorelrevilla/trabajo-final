@@ -1,17 +1,15 @@
 #include <iostream>
 #include "Controller.h"
 #include "Model.h"
+#include "View.h"
 #include "Bomberm.h"
+
 using namespace std;
 
 int main()
 {
-    Model m;
-    m.show_puntaje();
-    Controller c;
-    c.tecla(false);
-    Bomberm v;
-
+    View v;
+    v.Inicia_game();
     return 0;
 }
 
