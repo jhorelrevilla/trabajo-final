@@ -1,6 +1,12 @@
 #include "Bomberm.h"
 
-Bomberm::Bomberm(){}
+Bomberm::Bomberm()
+{
+    this -> puntaje = 0;
+    this -> vidas = 3;
+    this -> pos.x = 64;
+    this -> pos.y = 64;
+}
 Bomberm::Bomberm(int x,int y)
 {
     this -> puntaje = 0;
