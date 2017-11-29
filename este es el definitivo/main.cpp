@@ -11,6 +11,6 @@ using namespace std;
 int main(){
 
     Controller d;
-    d.tecla(false);
+    d.Principal_game();
     //[d.modelus.c.getPosicionX()][d.modelus.c.getPosicionY()]=(char(158));
 }

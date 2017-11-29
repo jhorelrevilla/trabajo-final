@@ -6,14 +6,14 @@ class Bomba
 {
     public:
         Bomba();
-        Bomba(Posicion pos1);
-        Posicion getPosicion();
-        void setPosicion(Posicion pos1);
+        int getPosicionX();
+        int getPosicionY();
+        void setPosicion(int,int);
 
+        void aum_long(int);
     protected:
         Posicion pos;
-        char cuerpo;
-        int danho;
+        int tamanio;
 };
 
 #endif // BOMBA_H

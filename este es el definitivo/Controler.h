@@ -3,6 +3,7 @@
 #include<iostream>
 #include<stdio.h>
 #include<conio.h>
+#include"windows.h"
 
 #include "Model.h"
 #include "View.h"
@@ -19,11 +20,16 @@ using namespace std;
 class Controller
 {
     public:
-        int tecla(bool);
+        void tecla(bool gameover);
+        void Principal_game();
+
+        //////////////////
+
         Model modelus;
         View veo;
     protected:
-        char* cTecla;
+        bool gameover;
+        char cTecla;
 
 };
 #endif // CONTROLER_H

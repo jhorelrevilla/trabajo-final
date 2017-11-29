@@ -7,7 +7,7 @@ class Enemigo : public Pj
     public:
         Enemigo(int,int);
         int getVida();
-        char getNombre();
+
         virtual int getPosicionX();
         virtual int getPosicionY();
 

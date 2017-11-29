@@ -4,8 +4,8 @@ Bomberman::Bomberman()
 {
     this -> puntaje = 0;
     this -> vidas = 3;
-    this -> pos.x = 0;
-    this -> pos.y = 0;
+    this -> pos.x = 1;
+    this -> pos.y = 1;
 }
 Bomberman::Bomberman(int x,int y)
 {
@@ -31,4 +31,6 @@ void Bomberman::setmPosicionY(int xp){
 void Bomberman::setpPosicionY(int xp){
     pos.y+=xp;
 }
-
+void Bomberman::setbomba(int x, int y){
+    b.setPosicion(x,y);
+}

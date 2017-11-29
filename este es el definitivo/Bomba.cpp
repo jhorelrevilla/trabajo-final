@@ -2,19 +2,20 @@
 
 Bomba::Bomba()
 {
-    this -> cuerpo = 'b';
-    this -> danho = 0;
+    tamanio=2;
+    pos.x=2;
+    pos.y=2;
 }
-Bomba::Bomba(Posicion pos1)
-{
-    this -> cuerpo = 'b';
-    this -> pos = pos1;
-    this -> danho = 100;
+int Bomba::getPosicionX(){
+    return pos.x;
 }
-Posicion Bomba::getPosicion(){
-    return pos;
+int Bomba::getPosicionY(){
+    return pos.y;
 }
-void Bomba::setPosicion(Posicion pos1){
-    pos.x=pos1.x;
-    pos.y=pos1.y;
+void Bomba::setPosicion(int xz, int yz){
+    pos.x=xz;
+    pos.y=yz;
+}
+void Bomba::aum_long(int x){
+    tamanio+=x;
 }

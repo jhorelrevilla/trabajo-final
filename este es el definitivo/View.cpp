@@ -13,3 +13,12 @@ void View::draw_map(){
         cout<<endl;
     }
 }
+void View::draw_prota(int xz,int yz){
+    map[xz][yz]='B';
+
+}
+void View::draw_bomba(int xz,int yz,int tamanio){
+    for(int i = 0;i<tamanio;++i){
+        map[xz+i][yz+i]='X';
+    }
+}

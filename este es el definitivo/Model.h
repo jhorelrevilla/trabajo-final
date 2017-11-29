@@ -12,7 +12,7 @@ using namespace std;
 class Model
 {
     public:
-        bool col(int x, int y, int xz, int yz);
+        bool col(int,int,int,int);
         Bomberman c;
     protected:
         friend class Controller;
