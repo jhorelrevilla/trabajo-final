@@ -1,15 +1,19 @@
 #include <iostream>
-#include "Controller.h"
-#include "Model.h"
-#include "View.h"
 #include "Bomberm.h"
+
+#include "Controller.h"
+
+//#include "View.h"
+
+
 
 using namespace std;
 
 int main()
 {
-    View v;
-    v.Inicia_game();
+
+    Controller d;
+    d.tecla(false);
     return 0;
 }
 

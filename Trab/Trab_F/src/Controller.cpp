@@ -15,22 +15,23 @@ int Controller::tecla(bool gameover)
            switch(cTecla)
            {
             case ENTER:
-                c.cambiotecla(ENTER);
+                ;
                 break;
             case TAB:
-                c.cambiotecla(TAB);
+                ;
                 break;
             case UP:
-                c.cambiotecla(UP);
+                modelus.c.setmPosicionY(32);
+                cout<<modelus.c.getPosicionY();
                 break;
             case DOWN:
-                c.cambiotecla(DOWN);
+                modelus.c.setpPosicionY(32);
                 break;
             case LEFT:
-                c.cambiotecla(LEFT);
+                modelus.c.setmPosicionX(32);
                 break;
             case RIGHT:
-                c.cambiotecla(RIGHT);
+                modelus.c.setpPosicionX(32);
                 break;
             }
         if(cTecla==ESC){gameover=true;}

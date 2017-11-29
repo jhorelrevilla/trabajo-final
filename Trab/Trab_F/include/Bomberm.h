@@ -8,10 +8,6 @@ class Bomberm : public Pj
         Bomberm ();
         Bomberm(int,int);
 
-        friend class Model;
-        friend class Controller;
-
-
         int getVida();
 
         int getPosicionX();

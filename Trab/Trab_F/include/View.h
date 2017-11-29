@@ -2,18 +2,15 @@
 #define VIEW_H
 
 #include <iostream>
-#define UP 72
-#define LEFT 75
-#define RIGHT 77
-#define DOWN 80
-#define ESC 27
-#define ENTER 13
-#define TAB 9
+
 #include "allegro.h"
-#include "Bomberm.h"
-using namespace std;
+
 #define columns 16
 #define filas 17
+
+using namespace std;
+
+
 BITMAP *buffer;
 BITMAP *pared;
 BITMAP *pasto;
@@ -24,18 +21,16 @@ BITMAP *derecha0;
 BITMAP *espalda0;
 BITMAP *izqui0;
 
-
 class View
 {
     public:
+        View(){}
         void draw_map();
         void showscreen();
-        int Inicia_game();
-        Bomberm f;
+        void Show();
+
 
     private:
-        int dir;
-        int px=100,py=200;
         char map[filas][columns]={
         "PPPPPPPPPPPPPPP",//1
         "PGIIGIIIGIIIGIP",
