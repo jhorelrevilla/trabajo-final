@@ -1,24 +1,34 @@
 #include "Bomberman.h"
 
+Bomberman::Bomberman()
+{
+    this -> puntaje = 0;
+    this -> vidas = 3;
+    this -> pos.x = 0;
+    this -> pos.y = 0;
+}
 Bomberman::Bomberman(int x,int y)
 {
-    this -> vida = 3;
-    this -> myPos.x = x;
-    this -> myPos.y = y;
+    this -> puntaje = 0;
+    this -> vidas = 3;
+    this -> pos.x = x;
+    this -> pos.y = y;
 }
-int Bomberman::getVida(){return vida;}
-int Bomberman::getPosicionX(){return myPos.x;}
-int Bomberman::getPosicionY(){return myPos.y;}
+int Bomberman::getVida(){return vidas;}
+
+int Bomberman::getPosicionX(){return pos.x;}
+int Bomberman::getPosicionY(){return pos.y;}
 
 void Bomberman::setmPosicionX(int xp){
-    myPos.x-=xp;
+    pos.x-=xp;
 }
 void Bomberman::setpPosicionX(int xp){
-    myPos.x+=xp;
+    pos.x+=xp;
 }
 void Bomberman::setmPosicionY(int xp){
-    myPos.y-=xp;
+    pos.y-=xp;
 }
 void Bomberman::setpPosicionY(int xp){
-    myPos.y+=xp;
+    pos.y+=xp;
 }
+

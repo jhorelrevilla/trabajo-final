@@ -1,3 +1,5 @@
 #include "Fantasmas.h"
 
-Fantasmas::Fantasmas(char a,int x, int y,int w):Enemigo(y,w){}
+Ballon::Ballon(int y,int w):Enemigo(y,w){}
+
+Oneal::Oneal(int y,int w):Enemigo(y,w){}

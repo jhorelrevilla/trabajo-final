@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -36,14 +38,20 @@
 		<Unit filename="Bomba.h" />
 		<Unit filename="Bomberman.cpp" />
 		<Unit filename="Bomberman.h" />
+		<Unit filename="Controler.cpp" />
+		<Unit filename="Controler.h" />
 		<Unit filename="Enemigo.cpp" />
 		<Unit filename="Enemigo.h" />
 		<Unit filename="Fantasmas.cpp" />
 		<Unit filename="Fantasmas.h" />
+		<Unit filename="Model.cpp" />
+		<Unit filename="Model.h" />
 		<Unit filename="Posicion.cpp" />
 		<Unit filename="Posicion.h" />
 		<Unit filename="Power_UP.cpp" />
 		<Unit filename="Power_UP.h" />
+		<Unit filename="View.cpp" />
+		<Unit filename="View.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="pj_v_a.cpp" />
 		<Unit filename="pj_v_a.h" />

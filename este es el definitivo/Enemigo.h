@@ -16,6 +16,7 @@ class Enemigo : public Pj
 
         void setpPosicionY(int);
         void setmPosicionY(int);
+        static int n;
     private:
         int danho;
 

@@ -5,18 +5,22 @@
 class Bomberman : public Pj
 {
     public:
-        Bomberman(int,int);
+        Bomberman ();
+        Bomberman (int,int);
+
         int getVida();
+
         int getPosicionX();
         int getPosicionY();
-
         void setpPosicionX(int);
         void setmPosicionX(int);
-
         void setpPosicionY(int);
         void setmPosicionY(int);
+
     private:
-        int poweup;
+        int puntaje;
+        int vidas;
+        Posicion pos;
 };
 
 #endif // BOMBERMAN_H

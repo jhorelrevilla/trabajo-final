@@ -163,3 +163,76 @@
 	"Bomberman.h"
 	"windows.h"
 
+1511913144 source:d:\instaladores\programacion\final\este es el definitivo\bomba.cpp
+	"Bomba.h"
+
+1511913144 d:\instaladores\programacion\final\este es el definitivo\bomba.h
+	"pj_v_a.h"
+
+1511913144 d:\instaladores\programacion\final\este es el definitivo\pj_v_a.h
+	"Posicion.h"
+
+1511913144 d:\instaladores\programacion\final\este es el definitivo\posicion.h
+	<string>
+	<iostream>
+
+1511964198 source:d:\instaladores\programacion\final\este es el definitivo\bomberman.cpp
+	"Bomberman.h"
+
+1511964147 d:\instaladores\programacion\final\este es el definitivo\bomberman.h
+	"pj_v_a.h"
+
+1511913144 source:d:\instaladores\programacion\final\este es el definitivo\enemigo.cpp
+	"Enemigo.h"
+
+1511966271 d:\instaladores\programacion\final\este es el definitivo\enemigo.h
+	"pj_v_a.h"
+
+1511963140 source:d:\instaladores\programacion\final\este es el definitivo\fantasmas.cpp
+	"Fantasmas.h"
+
+1511963140 d:\instaladores\programacion\final\este es el definitivo\fantasmas.h
+	"Enemigo.h"
+	"Posicion.h"
+
+1511966084 source:d:\instaladores\programacion\final\este es el definitivo\main.cpp
+	<iostream>
+	"Controler.h"
+	"Bomberman.h"
+	"windows.h"
+
+1511913144 source:d:\instaladores\programacion\final\este es el definitivo\pj_v_a.cpp
+	"pj_v_a.h"
+
+1511913144 source:d:\instaladores\programacion\final\este es el definitivo\posicion.cpp
+	"Posicion.h"
+
+1511913144 source:d:\instaladores\programacion\final\este es el definitivo\power_up.cpp
+	"Power_UP.h"
+
+1511913144 d:\instaladores\programacion\final\este es el definitivo\power_up.h
+	"pj_v_a.h"
+
+1511964503 source:d:\instaladores\programacion\final\este es el definitivo\controler.cpp
+	"Controler.h"
+
+1511966084 d:\instaladores\programacion\final\este es el definitivo\controler.h
+	<iostream>
+	<stdio.h>
+	<conio.h>
+	"Model.h"
+	"View.h"
+
+1511966196 d:\instaladores\programacion\final\este es el definitivo\model.h
+	<iostream>
+	"Bomberman.h"
+
+1511963947 source:d:\instaladores\programacion\final\este es el definitivo\model.cpp
+	"Model.h"
+
+1511966196 d:\instaladores\programacion\final\este es el definitivo\view.h
+	<iostream>
+
+1511965958 source:d:\instaladores\programacion\final\este es el definitivo\view.cpp
+	"View.h"
+

@@ -1,9 +1,17 @@
 #ifndef FANTASMAS_H
 #define FANTASMAS_H
 #include "Enemigo.h"
-class Fantasmas : public Enemigo
+#include "Posicion.h"
+class Ballon : public Enemigo
 {
+    Posicion pos;
     public:
-        Fantasmas(char, int,int,int);
+        Ballon(int, int);
+};
+class Oneal : public Enemigo
+{
+    Posicion mypos;
+    public:
+        Oneal(int, int);
 };
 #endif // FANTASMAS_H
