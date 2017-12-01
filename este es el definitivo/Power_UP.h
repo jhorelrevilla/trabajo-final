@@ -6,7 +6,7 @@ class Power_UP
     public:
         Power_UP();
         int get_tamanio();
-        void aumenta_bomba();
+        int aumenta_bomba();
     protected:
         int tamaniobomba;
 };

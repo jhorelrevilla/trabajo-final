@@ -2,7 +2,7 @@
 #define BOMBERMAN_H
 #include "pj_v_a.h"
 #include "Bomba.h"
-
+#include "Power_UP.h"
 
 class Bomberman : public Pj
 {
@@ -23,6 +23,7 @@ class Bomberman : public Pj
         void setbomba(int,int);
 
     private:
+        Power_UP poderxd;
         int puntaje;
         int vidas;
         Posicion pos;
