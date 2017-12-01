@@ -1,5 +1,10 @@
 #include "Enemigo.h"
-
+Enemigo::Enemigo()
+{
+    myPos.x=9;
+    myPos.y=10;
+    vida=3;
+}
 Enemigo::Enemigo(int y,int z)
 {
     myPos.x=y;

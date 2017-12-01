@@ -386,3 +386,79 @@
 1512097749 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\view.cpp
 	"View.h"
 
+1512087254 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\bomba.cpp
+	"Bomba.h"
+
+1512087254 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\bomba.h
+	"pj_v_a.h"
+
+1512087254 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\pj_v_a.h
+	"Posicion.h"
+
+1512087254 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\posicion.h
+	<string>
+	<iostream>
+
+1512087254 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\bomberman.cpp
+	"Bomberman.h"
+
+1512087254 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\bomberman.h
+	"pj_v_a.h"
+	"Bomba.h"
+
+1512101083 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\controler.cpp
+	"Controler.h"
+
+1512100019 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\controler.h
+	<iostream>
+	<stdio.h>
+	<conio.h>
+	"windows.h"
+	<stdlib.h>
+	"Model.h"
+	"View.h"
+
+1512100007 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\model.h
+	<iostream>
+	"Bomberman.h"
+	"Fantasmas.h"
+
+1512100901 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\view.h
+	<iostream>
+
+1512100169 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\enemigo.cpp
+	"Enemigo.h"
+
+1512100163 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\enemigo.h
+	"pj_v_a.h"
+
+1512100094 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\fantasmas.cpp
+	"Fantasmas.h"
+
+1512100094 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\fantasmas.h
+	"Enemigo.h"
+	"Posicion.h"
+
+1512087254 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\main.cpp
+	<iostream>
+	"Controler.h"
+	"Bomberman.h"
+	"windows.h"
+
+1512087254 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\model.cpp
+	"Model.h"
+
+1512087254 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\pj_v_a.cpp
+	"pj_v_a.h"
+
+1512087254 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\posicion.cpp
+	"Posicion.h"
+
+1512087254 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\power_up.cpp
+	"Power_UP.h"
+
+1512087254 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\power_up.h
+
+1512100908 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\view.cpp
+	"View.h"
+

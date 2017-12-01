@@ -33,6 +33,8 @@ char map[filas][columns]={
     void draw_nulbomba(int,int);
     bool ver_parA(int,int);
     void draw_bomba(int,int);
+    void draw_enem(int,int);
+    void draw_nulenem(int,int);
     private:
 
 };
