@@ -311,3 +311,78 @@
 1511967354 c:\users\alumno-e\downloads\trabajo-final-master\este es el definitivo\bomba.h
 	"pj_v_a.h"
 
+1512084438 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\bomba.cpp
+	"Bomba.h"
+
+1512084438 c:\users\jhorel\documents\trabajo-final\este es el definitivo\bomba.h
+	"pj_v_a.h"
+
+1511749884 c:\users\jhorel\documents\trabajo-final\este es el definitivo\pj_v_a.h
+	"Posicion.h"
+
+1510316876 c:\users\jhorel\documents\trabajo-final\este es el definitivo\posicion.h
+	<string>
+	<iostream>
+
+1512085585 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\bomberman.cpp
+	"Bomberman.h"
+
+1512085585 c:\users\jhorel\documents\trabajo-final\este es el definitivo\bomberman.h
+	"pj_v_a.h"
+	"Bomba.h"
+
+1512090752 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\controler.cpp
+	"Controler.h"
+
+1512084438 c:\users\jhorel\documents\trabajo-final\este es el definitivo\controler.h
+	<iostream>
+	<stdio.h>
+	<conio.h>
+	"windows.h"
+	"Model.h"
+	"View.h"
+
+1512086495 c:\users\jhorel\documents\trabajo-final\este es el definitivo\model.h
+	<iostream>
+	"Bomberman.h"
+
+1512086495 c:\users\jhorel\documents\trabajo-final\este es el definitivo\view.h
+	<iostream>
+
+1511750121 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\enemigo.cpp
+	"Enemigo.h"
+
+1512084438 c:\users\jhorel\documents\trabajo-final\este es el definitivo\enemigo.h
+	"pj_v_a.h"
+
+1512084438 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\fantasmas.cpp
+	"Fantasmas.h"
+
+1512084438 c:\users\jhorel\documents\trabajo-final\este es el definitivo\fantasmas.h
+	"Enemigo.h"
+	"Posicion.h"
+
+1512084438 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\main.cpp
+	<iostream>
+	"Controler.h"
+	"Bomberman.h"
+	"windows.h"
+
+1512086495 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\model.cpp
+	"Model.h"
+
+1511749884 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\pj_v_a.cpp
+	"pj_v_a.h"
+
+1510316876 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\posicion.cpp
+	"Posicion.h"
+
+1510316876 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\power_up.cpp
+	"Power_UP.h"
+
+1510316876 c:\users\jhorel\documents\trabajo-final\este es el definitivo\power_up.h
+	"pj_v_a.h"
+
+1512089430 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\view.cpp
+	"View.h"
+

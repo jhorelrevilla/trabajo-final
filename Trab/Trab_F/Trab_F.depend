@@ -223,3 +223,56 @@
 1511896477 source:d:\instaladores\programacion\final\trab_f\src\view.cpp
 	"View.h"
 
+1511923945 source:c:\users\jhorel\documents\trabajo-final\trab\trab_f\main.cpp
+	<iostream>
+	"Bomberm.h"
+	"Controller.h"
+
+1511923945 c:\users\jhorel\documents\trabajo-final\trab\trab_f\include\bomberm.h
+	"PJ.h"
+
+1511739544 c:\users\jhorel\documents\trabajo-final\trab\trab_f\include\pj.h
+	"Posicion.h"
+
+1511747716 c:\users\jhorel\documents\trabajo-final\trab\trab_f\include\posicion.h
+	<iostream>
+
+1511923945 c:\users\jhorel\documents\trabajo-final\trab\trab_f\include\controller.h
+	<iostream>
+	<stdio.h>
+	<conio.h>
+	"Model.h"
+
+1511923945 c:\users\jhorel\documents\trabajo-final\trab\trab_f\include\model.h
+	<iostream>
+	"Bomberm.h"
+	"Obstaculos.h"
+
+1511923945 c:\users\jhorel\documents\trabajo-final\trab\trab_f\include\obstaculos.h
+	"Posicion.h"
+
+1511923945 source:c:\users\jhorel\documents\trabajo-final\trab\trab_f\src\bomberm.cpp
+	"Bomberm.h"
+
+1511923945 source:c:\users\jhorel\documents\trabajo-final\trab\trab_f\src\controller.cpp
+	"Controller.h"
+
+1511923945 source:c:\users\jhorel\documents\trabajo-final\trab\trab_f\src\model.cpp
+	"Model.h"
+
+1511738536 source:c:\users\jhorel\documents\trabajo-final\trab\trab_f\src\obstaculos.cpp
+	"Obstaculos.h"
+
+1511739292 source:c:\users\jhorel\documents\trabajo-final\trab\trab_f\src\pj.cpp
+	"PJ.h"
+
+1511728107 source:c:\users\jhorel\documents\trabajo-final\trab\trab_f\src\posicion.cpp
+	"Posicion.h"
+
+1511923945 source:c:\users\jhorel\documents\trabajo-final\trab\trab_f\src\view.cpp
+	"View.h"
+
+1511923945 c:\users\jhorel\documents\trabajo-final\trab\trab_f\include\view.h
+	<iostream>
+	"allegro.h"
+

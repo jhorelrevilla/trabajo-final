@@ -7,7 +7,7 @@
 class Bomberman : public Pj
 {
     public:
-        Bomba b;
+        Bomba bomb;
         Bomberman ();
         Bomberman (int,int);
 
@@ -23,7 +23,6 @@ class Bomberman : public Pj
         void setbomba(int,int);
 
     private:
-
         int puntaje;
         int vidas;
         Posicion pos;

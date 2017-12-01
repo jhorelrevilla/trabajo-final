@@ -12,7 +12,6 @@ using namespace std;
 class Model
 {
     public:
-        bool col(int,int,int,int);
         Bomberman c;
     protected:
         friend class Controller;

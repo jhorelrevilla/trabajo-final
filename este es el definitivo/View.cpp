@@ -15,12 +15,22 @@ void View::draw_map(){
 }
 void View::draw_prota(int xz,int yz){
     map[xz][yz]='B';
-    //if(map[xz+1][yz]='B';)
-
-
+}
+void View::draw_nulprota(int xz,int yz){
+    map[xz][yz]=' ';
+}
+bool View::ver_parA(int xz,int yz){
+    if (map[xz][yz]=='P'){
+        return true;
+    }
+    else
+        return false;
 }
 void View::draw_bomba(int xz,int yz,int tamanio){
     for(int i = 0;i<=tamanio;++i){
         map[xz][yz+i]='X';
+        map[xz][yz-i]='X';
+        map[xz+i][yz]='X';
+        map[xz-i][yz]='X';
     }
 }

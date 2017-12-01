@@ -32,5 +32,5 @@ void Bomberman::setpPosicionY(int xp){
     pos.y+=xp;
 }
 void Bomberman::setbomba(int x, int y){
-    b.setPosicion(x,y);
+    bomb.setPosicion(x,y);
 }
