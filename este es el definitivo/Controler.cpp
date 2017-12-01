@@ -36,7 +36,7 @@ void Controller::tecla(bool gameover){
 
 }
 void Controller::mov_ene(){
-    int v1 = rand() % 4;
+    int v1 = rand() % 3;
     switch(v1){
         case 1:
             modelus.d.setpPosicionY(1);
@@ -56,7 +56,7 @@ void Controller::mov_ene(){
                 modelus.d.setmPosicionX(1);
             }
             break;
-        case 4:
+        case 0:
             modelus.d.setmPosicionY(1);
             if(veo.ver_parA(modelus.d.getPosicionX(),modelus.d.getPosicionY())){
                 modelus.d.setpPosicionY(1);
@@ -80,8 +80,6 @@ void Controller::Principal_game(){
     cout<<" Para colocar bombas usa tab"<<endl;
     while(gameover){
         tiempo+=1;
-//        std::cout<<"pos x"<<modelus.c.getPosicionX()<<std::endl;
-//        std::cout<<"pos y"<<modelus.c.getPosicionY()<<std::endl;
         veo.draw_nulprota(modelus.c.getPosicionX(),modelus.c.getPosicionY());
         veo.draw_nulenem(modelus.d.getPosicionX(),modelus.d.getPosicionY());
         if(tiempo-tiempobomb==2){
