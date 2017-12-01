@@ -30,6 +30,7 @@ char map[filas][columns]={
     void draw_map();
     void draw_prota(int,int);
     void draw_nulprota(int,int);
+    void draw_nulbomba(int,int,int);
     bool ver_parA(int,int);
     void draw_bomba(int,int,int);
     private:

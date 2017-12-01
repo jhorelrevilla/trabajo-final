@@ -19,6 +19,14 @@ void View::draw_prota(int xz,int yz){
 void View::draw_nulprota(int xz,int yz){
     map[xz][yz]=' ';
 }
+void View::draw_nulbomba(int xz,int yz,int tamanio){
+    for(int i = 0;i<=tamanio;++i){
+        map[xz][yz+i]=' ';
+        map[xz][yz-i]=' ';
+        map[xz+i][yz]=' ';
+        map[xz-i][yz]=' ';
+    }
+}
 bool View::ver_parA(int xz,int yz){
     if (map[xz][yz]=='P'){
         return true;
