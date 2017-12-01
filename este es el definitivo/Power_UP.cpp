@@ -1,11 +1,11 @@
 #include "Power_UP.h"
 
-Power_UP::Power_UP()
-{
-    this -> nombre = NULL;
+Power_UP::Power_UP(){
+    this -> tamaniobomba = 1;
 }
-Power_UP::Power_UP(char *nombre1,Posicion pos1)
-{
-    this -> nombre = nombre1;
-    this -> pos = pos1;
+int Power_UP::get_tamanio(){
+    return tamaniobomba;
+}
+void Power_UP::aumenta_bomba(){
+    tamaniobomba+=1;
 }

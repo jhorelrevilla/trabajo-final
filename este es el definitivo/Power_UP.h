@@ -1,16 +1,14 @@
 #ifndef POWER_UP_H
 #define POWER_UP_H
-#include "pj_v_a.h"
 
-class Power_UP : public Pj
+class Power_UP
 {
     public:
         Power_UP();
-        Power_UP(char *nombre1, Posicion pos1);
-
+        int get_tamanio();
+        void aumenta_bomba();
     protected:
-        char *nombre;
-        Posicion pos;
+        int tamaniobomba;
 };
 
 #endif // POWER_UP_H

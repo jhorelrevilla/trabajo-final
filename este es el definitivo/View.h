@@ -12,14 +12,14 @@ class View
 public:
 char map[filas][columns]={
     "PPPPPPPPPPPPPPP",//1
-    "P   I         P",
+    "P I III I     P",
     "P P P P P P P P",
-    "P             P",
+    "P  I  I       P",
     "P P P P P P P P",//5
-    "P             P",
-    "P P P P P P P P",
-    "P             P",
-    "P P P P P P P P",
+    "P I           P",
+    "P P PIP P P P P",
+    "P   I         P",
+    "P PIP P P P P P",
     "P             P",//10
     "P P P P P P P P",
     "P             P",
@@ -30,9 +30,9 @@ char map[filas][columns]={
     void draw_map();
     void draw_prota(int,int);
     void draw_nulprota(int,int);
-    void draw_nulbomba(int,int,int);
+    void draw_nulbomba(int,int);
     bool ver_parA(int,int);
-    void draw_bomba(int,int,int);
+    void draw_bomba(int,int);
     private:
 
 };

@@ -20,6 +20,9 @@ using namespace std;
 class Controller
 {
     public:
+        int puntaje;
+        int tiempo=0;
+        int tiempobomb=0;
         void tecla(bool gameover);
         void Principal_game();
 

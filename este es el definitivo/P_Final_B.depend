@@ -331,10 +331,10 @@
 	"pj_v_a.h"
 	"Bomba.h"
 
-1512091933 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\controler.cpp
+1512097460 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\controler.cpp
 	"Controler.h"
 
-1512084438 c:\users\jhorel\documents\trabajo-final\este es el definitivo\controler.h
+1512097048 c:\users\jhorel\documents\trabajo-final\este es el definitivo\controler.h
 	<iostream>
 	<stdio.h>
 	<conio.h>
@@ -346,7 +346,7 @@
 	<iostream>
 	"Bomberman.h"
 
-1512093567 c:\users\jhorel\documents\trabajo-final\este es el definitivo\view.h
+1512096622 c:\users\jhorel\documents\trabajo-final\este es el definitivo\view.h
 	<iostream>
 
 1511750121 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\enemigo.cpp
@@ -377,12 +377,11 @@
 1510316876 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\posicion.cpp
 	"Posicion.h"
 
-1510316876 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\power_up.cpp
+1512095877 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\power_up.cpp
 	"Power_UP.h"
 
-1510316876 c:\users\jhorel\documents\trabajo-final\este es el definitivo\power_up.h
-	"pj_v_a.h"
+1512095854 c:\users\jhorel\documents\trabajo-final\este es el definitivo\power_up.h
 
-1512093532 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\view.cpp
+1512097749 source:c:\users\jhorel\documents\trabajo-final\este es el definitivo\view.cpp
 	"View.h"
 
