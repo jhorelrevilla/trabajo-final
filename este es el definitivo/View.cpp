@@ -58,3 +58,9 @@ void View::draw_bomba(int xz,int yz){
         }
     }
 }
+void View::draw_enem(int xz,int yz){
+    map[xz][yz]='E';
+}
+void View::draw_nulenem(int xz,int yz){
+    map[xz][yz]=' ';
+}

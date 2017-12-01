@@ -1,7 +1,7 @@
 #include "Enemigo.h"
 Enemigo::Enemigo()
 {
-    myPos.x=8;
+    myPos.x=9;
     myPos.y=10;
     vida=3;
 }

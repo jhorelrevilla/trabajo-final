@@ -83,15 +83,19 @@ void Controller::Principal_game(){
 //        std::cout<<"pos x"<<modelus.c.getPosicionX()<<std::endl;
 //        std::cout<<"pos y"<<modelus.c.getPosicionY()<<std::endl;
         veo.draw_nulprota(modelus.c.getPosicionX(),modelus.c.getPosicionY());
+        veo.draw_nulenem(modelus.d.getPosicionX(),modelus.d.getPosicionY());
         if(tiempo-tiempobomb==2){
             veo.draw_nulbomba(modelus.c.getPosicionX(),modelus.c.getPosicionY());
         }
         tecla(false);
+        mov_ene();
 
         veo.draw_prota(modelus.c.getPosicionX(),modelus.c.getPosicionY());
+        veo.draw_enem(modelus.d.getPosicionX(),modelus.d.getPosicionY());
 
         system("cls");
         veo.draw_map();
         veo.draw_prota(modelus.c.getPosicionX(),modelus.c.getPosicionY());
+        veo.draw_enem(modelus.d.getPosicionX(),modelus.d.getPosicionY());
     }
 }

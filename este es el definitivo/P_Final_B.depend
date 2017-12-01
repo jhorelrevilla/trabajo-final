@@ -405,7 +405,7 @@
 	"pj_v_a.h"
 	"Bomba.h"
 
-1512100038 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\controler.cpp
+1512101083 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\controler.cpp
 	"Controler.h"
 
 1512100019 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\controler.h
@@ -422,16 +422,16 @@
 	"Bomberman.h"
 	"Fantasmas.h"
 
-1512087254 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\view.h
+1512100901 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\view.h
 	<iostream>
 
-1512087254 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\enemigo.cpp
+1512100169 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\enemigo.cpp
 	"Enemigo.h"
 
 1512100163 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\enemigo.h
 	"pj_v_a.h"
 
-1512087254 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\fantasmas.cpp
+1512100094 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\fantasmas.cpp
 	"Fantasmas.h"
 
 1512100094 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\fantasmas.h
@@ -458,6 +458,6 @@
 
 1512087254 d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\power_up.h
 
-1512087254 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\view.cpp
+1512100908 source:d:\instaladores\programacion\final\nueva carpeta\este es el definitivo\view.cpp
 	"View.h"
 
