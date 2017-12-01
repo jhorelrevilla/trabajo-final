@@ -5,17 +5,18 @@
 class Enemigo : public Pj
 {
     public:
+        Enemigo();
         Enemigo(int,int);
         int getVida();
 
         virtual int getPosicionX();
         virtual int getPosicionY();
 
-        void setpPosicionX(int);
-        void setmPosicionX(int);
+        virtual void setpPosicionX(int);
+        virtual void setmPosicionX(int);
 
-        void setpPosicionY(int);
-        void setmPosicionY(int);
+        virtual void setpPosicionY(int);
+        virtual void setmPosicionY(int);
         static int n;
     private:
         int danho;

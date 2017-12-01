@@ -4,6 +4,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include"windows.h"
+#include<stdlib.h>
 
 #include "Model.h"
 #include "View.h"
@@ -25,6 +26,7 @@ class Controller
         int tiempobomb=0;
         void tecla(bool gameover);
         void Principal_game();
+        void mov_ene();
 
         //////////////////
 

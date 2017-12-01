@@ -35,6 +35,35 @@ void Controller::tecla(bool gameover){
     if(cTecla==ESC){this->gameover=false;}
 
 }
+void Controller::mov_ene(){
+    int v1 = rand() % 4;
+    switch(v1){
+        case 1:
+            modelus.d.setpPosicionY(1);
+            if(veo.ver_parA(modelus.d.getPosicionX(),modelus.d.getPosicionY())){
+                modelus.d.setmPosicionY(1);
+            }
+            break;
+        case 2:
+            modelus.d.setmPosicionX(1);
+            if(veo.ver_parA(modelus.d.getPosicionX(),modelus.d.getPosicionY())){
+                modelus.d.setpPosicionX(1);
+            }
+            break;
+        case 3:
+            modelus.d.setpPosicionX(1);
+            if(veo.ver_parA(modelus.d.getPosicionX(),modelus.d.getPosicionY())){
+                modelus.d.setmPosicionX(1);
+            }
+            break;
+        case 4:
+            modelus.d.setmPosicionY(1);
+            if(veo.ver_parA(modelus.d.getPosicionX(),modelus.d.getPosicionY())){
+                modelus.d.setpPosicionY(1);
+            }
+            break;
+    }
+}
 void Controller::Principal_game(){
     cout<<" BBBBB                      bb                                                "<<endl;
     cout<<" BB   B   oooo  mm mm mmmm  bb        eee  rr rr  mm mm mmmm    aa aa nn nnn  "<<endl;
